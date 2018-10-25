@@ -1,0 +1,144 @@
+    1  wget http://download.virtualbox.org/virtualbox/5.1.18/virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb
+    2  sudo VBoxManage extpack install --replace virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    3  ls
+    4  rm virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    5  wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+    6  bash Anaconda3-4.3.1-Linux-x86_64.sh 
+    7  exit
+    8  java
+    9  conda search pytho
+   10  conda search python
+   11  conda create --name python35 python=3.5.3
+   12  source activate python35
+   13  wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
+   14  tar tzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   15  tar xzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   16  ln -s spark-2.1.0-bin-hadoop2.7 spark
+   17  ll
+   18  vim .bashrc
+   19  sudo apt install vim
+   20  mc
+   21  sudo apt install mc
+   22  vim .bashrc
+   23  ls spark/python/lib/py4j-0.10.4-src.zip 
+   24  vim .bashrc
+   25  exit
+   26  source activate python35
+   27  python
+   28  exit
+   29  sudo add-apt-repository ppa:webupd8team/java
+   30  sudo apt-get update
+   31  sudo apt-get install oracle-java8-installer
+   32  java -version
+   33  ls
+   34  rm spark-2.1.0-bin-hadoop2.7.tgz 
+   35  rm Anaconda3-4.3.1-Linux-x86_64.sh 
+   36  source activate python35
+   37  python
+   38  exit
+   39  vim tst.txt
+   40  python
+   41  exit
+   42  history | less
+   43  vim .bashrc
+   44  history | less
+   45  sudo add-apt-repository ppa:webupd8team/atom
+   46  sudo apt update
+   47  sudo apt list --upgradable
+   48  sudo apt install atom
+   49  atom 
+   50  exit
+   51  df -h
+   52  history | less
+   53  exit
+   54  tar tzvf Pobrane/pycharm-community-2016.3.3.tar.gz pycharm-community-2016.3.3/
+   55  tar xzvf Pobrane/pycharm-community-2016.3.3.tar.gz 
+   56  cd Pobrane/
+   57  ls
+   58  rm pycharm-community-2016.3.3.tar.gz 
+   59  cd ..
+   60  ls
+   61  cd pycharm-community-2016.3.3/
+   62  ls
+   63  vim Install-Linux-tar.txt 
+   64  bin/pycharm.sh 
+   65  cd ..
+   66  ls
+   67  cd PycharmProjects/
+   68  ls
+   69  rm -rf untitled/
+   70  cd ..
+   71  l
+   72  exit
+   73  ls
+   74  mkdir test
+   75  cd test
+   76  touch test.txt
+   77  touch test.xls
+   78  echo Jestem Lukasz >> test.xls
+   79  cat test.xls
+   80  echo Jestem Lukasz >> test.xls
+   81  echo Kasia to moja zona >> test.xls
+   82  echo A Tadzio to nasz synek >> test.xls
+   83  echo A Tadzio to nasz synek Tadzio  >> test.xls
+   84  cat test xls
+   85  cat test.xls
+   86  echo A Tadzio to nasz synek tadzio  >> test.xls
+   87  cat test.xls
+   88  ped
+   89  pwd
+   90  grep Tadzio /home/kodolamacz/test/test.xls | sort -n | wc -w
+   91  grep Tadzio /home/kodolamacz/test/test.xls | sort -n | wc -l
+   92  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -n | wc -l
+   93  wc --help
+   94  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -n | wc -w
+   95  sort --help
+   96  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -n | wc
+   97  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -n | w
+   98  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -n | c
+   99  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | sort = Tadzio | wc -w
+  100  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | --sort = Tadzio | wc -w
+  101  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | -sort = Tadzio | wc -w
+  102  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h | wc -w
+  103  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h | wc -l
+  104  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | wc -l
+  105  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -f | wc -w
+  106  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | wc -w
+  107  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | wc 
+  108  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h | wc 
+  109  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h |
+  110  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h
+  111  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h | wc -i Tadzio
+  112  grep Tadzio /home/kodolamacz/test/test.xls | sort -f | sort -h | wc Tadzio
+  113  wc Tadzio /home/kodolamacz/test/test.xls
+  114  wc -w  Tadzio /home/kodolamacz/test/test.xls
+  115  wc -w | grep Tadzio /home/kodolamacz/test/test.xls
+  116  wc -w | grep -i Tadzio /home/kodolamacz/test/test.xls
+  117  wc -w Tadzio | grep -i Tadzio /home/kodolamacz/test/test.xls
+  118  wc -w= Tadzio | grep -i Tadzio /home/kodolamacz/test/test.xls
+  119  wc -w= Tadzio | grep -i Tadzio /home/kodolamacz/test/test.xls | wc -l
+  120  grep -i Tadzio /home/kodolamacz/test/test.xls | wc -l
+  121  grep -i Tadzio /home/kodolamacz/test/test.xls | wc -w
+  122  wc --help
+  123  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -r |wc -w
+  124  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -r |wc -l
+  125  grep -i Tadzio /home/kodolamacz/test/test.xls | sort -h |wc -w
+  126  grep -i Tadzio /home/kodolamacz/test/test.xls | grep -c 
+  127  grep -ic Tadzio /home/kodolamacz/test/test.xls 
+  128  grep -c Tadzio /home/kodolamacz/test/test.xls 
+  129  grep -i -c Tadzio /home/kodolamacz/test/test.xls 
+  130  grep -i -c 'Tadzio' /home/kodolamacz/test/test.xls 
+  131  grep -i -w 'Tadzio' /home/kodolamacz/test/test.xls 
+  132  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls 
+  133  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls | wc -w
+  134  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls | wc 'Tadzio'
+  135  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls | wc -f 'Tadzio'
+  136  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls | wc -f
+  137  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls | wc
+  138  grep -w -i 'Tadzio' /home/kodolamacz/test/test.xls | wc grep
+  139  wc --'Tadzio'
+  140  wc --help
+  141  history
+  142  history > historia1_bash
+  143  cd DS_sages_Wwa
+  144  history > historia1_bash
